@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
 		char s[100];
 
 		if (argv == NULL) {
-			cout << "ÇëÊäÈëÎÄ¼þÃû" << endl;
+			cout << "please input the corret filename." << endl;
 			return 0;
 		}
 		strcpy(s,argv[1]);
@@ -21,7 +21,8 @@ int main(int argc, char** argv) {
 		frequency(s);
 		lineCount(s);
 		wordCount(s);
-	}
+	
 	
 	return 0;
 
+}
